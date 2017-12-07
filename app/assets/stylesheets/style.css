@@ -412,7 +412,7 @@ p,span,h1,h2,h3,h4,h5,a {
 }
 .home-background {
   position: relative;
-  background: url('http://mwstudying.com/saadia/img/pexels-photo-416748.jpg') center center no-repeat;
+  background: url(pexels-photo-416748.jpg) center center no-repeat;
   background-size: cover;
   width: 100%;
   height: 100%;
@@ -759,7 +759,7 @@ p,span,h1,h2,h3,h4,h5,a {
 
 /* 7.2 = TESTIMONIALS */
 .testimonials {
-  background: url('http://mwstudying.com/saadia/img/testimonials.jpg') center center no-repeat;
+  background: url(testimonials.jpg) center center no-repeat;
   background-size: cover;
 }
 .testimonials-overlay {
