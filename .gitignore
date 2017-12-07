@@ -18,6 +18,7 @@
 !/tmp/.keep
 
 /node_modules
+/vendor/assets/components/
 /yarn-error.log
 
 .byebug_history
