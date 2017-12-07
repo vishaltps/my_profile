@@ -10,6 +10,18 @@
 // Read Sprockets README (https://github.com/rails/sprockets#sprockets-directives) for details
 // about supported directives.
 //
+//= require jquery
 //= require rails-ujs
 //= require turbolinks
+//= require bootstrap/dist/js/bootstrap
+//= require jquery.mCustomScrollbar.concat.min
+//= require typed
+//= require owl.carousel.min
+//= require jquery.magnific-popup.min
+//= require parsleyjs/src/parsley
+//= require particles.min
+//= require main
 //= require_tree .
+
+
+$(".row").remove()
