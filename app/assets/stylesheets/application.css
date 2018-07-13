@@ -23,3 +23,7 @@
  *= require_tree .
  *= require_self
  */
+
+#particles-overl canvas{
+  position: absolute;
+}
