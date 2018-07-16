@@ -56,3 +56,6 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'rails_12factor'
+
+# For sending email
+gem 'mailgun-ruby', '~>1.1.6'
