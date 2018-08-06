@@ -10,20 +10,32 @@
  * files in this directory. Styles in this file should be added after the last require_* statement.
  * It is generally better to create a new file per style scope.
  *
- *= require bootstrap/dist/css/bootstrap
- *= require font_path_overwrite
- *= require font-awesome/scss/font-awesome
- *= require jquery.mCustomScrollbar.min
- *= require owl-carousel/owl.carousel.min
- *= require owl-carousel/owl.theme.default.min
- *= require magnific-popup/magnific-popup
- *= require style
- *= require responsive
- *= require colors/main-color
+
+ *= require zman_theme/font-awesome.min
+ *= require zman_theme/flaticon
+ *= require zman_theme/plugins/bootstrap.min
+ *= require zman_theme/plugins/jquery.animatedheadline
+ *= require zman_theme/plugins/owl.carousel.min
+ *= require zman_theme/plugins/magnific-popup
+ *= require zman_theme/style
  *= require_tree .
  *= require_self
  */
 
-#particles-overl canvas{
+
+
+ /*
+Files to include for saadia theme
+ *= stub zman_theme/plugins
+ *= stub saadia_theme/font_path_overwrite
+ *= stub saadia_theme/jquery.mCustomScrollbar.min
+ *= stub saadia_theme/jquery.mCustomScrollbar.min
+ *= stub saadia_theme/magnific-popup/magnific-popup
+ *= stub saadia_theme/owl-carousel/owl.carousel.min
+ *= stub saadia_theme/owl-carousel/owl.theme.default.min
+ *= stub saadia_theme/style
+ *= stub saadia_theme/responsive
+ *= stub saadia_theme/colors/main-color*/
+/*#particles-overl canvas{
   position: absolute;
-}
+}*/

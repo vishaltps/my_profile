@@ -13,15 +13,28 @@
 //= require jquery
 //= require rails-ujs
 //= require turbolinks
-//= require bootstrap/dist/js/bootstrap
-//= require jquery.mCustomScrollbar.concat.min
-//= require typed
-//= require owl.carousel.min
-//= require jquery.magnific-popup.min
-//= require parsleyjs/src/parsley
-//= require particles.min
-//= require main
-//= require_tree .
+//= require zman_theme/vendor/modernizr-2.8.3.min
+//= require zman_theme/vendor/jquery-v3.2.1.min
+//= require zman_theme/bootstrap.min
+//= require zman_theme/popper.min
+//= require zman_theme/plugins
+//= require zman_theme/jquery.appear
+//= require zman_theme/main
+//= require saadia_theme/particles.min
+// require_tree .
 
 
-$(".row").remove()
+// REQUIRED FILES FOR SAADIA THEME
+
+// require bootstrap/dist/js/bootstrap
+// require jquery.mCustomScrollbar.concat.min
+// require typed
+// require owl.carousel.min
+// require jquery.magnific-popup.min
+// require parsleyjs/src/parsley
+// require particles.min
+// require main
+
+// $(".row").remove()
+
+
